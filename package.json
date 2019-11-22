@@ -1,0 +1,30 @@
+{
+  "name": "runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.3",
+    "express": "^4.17.1",
+    "files": "^1.0.0",
+    "googleapis": "^45.0.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jquery": "^3.4.1",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.12",
+    "node-gmail-api": "^0.6.1",
+    "nodemon": "^1.19.4",
+    "passport": "^0.4.0",
+    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "shelljs": "^0.8.3"
+  }
+}

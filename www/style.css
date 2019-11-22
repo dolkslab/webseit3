@@ -1,0 +1,156 @@
+
+body {
+  background-color: dodgerblue;
+}
+h1 {
+ 	color: orange;
+	font-family:verdana;
+}
+p {
+	color: white;
+	font-family:verdana;
+}
+a {
+	font-family:verdana;
+}
+
+#block-login {
+  background-color: yellow;
+  height:8.6vh;
+  transition: 0.2s;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#btn-login {
+  display: inline-block;
+  border: none;
+  background-color: #8DD4F4;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+
+
+#zero-margin {
+  background-color: aqua;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#menus {
+  background-color: aqua;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  transition: 0.2s;
+}
+
+
+#main-window {
+  background-color: gainsboro;
+  height:91.4vh;
+  transition: 0.2s;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#top-bar{
+  background-color: #F19E80;
+  height:8.6vh;
+  transition: 0.2s;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#search-bar {
+  background-color: gainsboro;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 8.6vh;
+  transition: 0.2s;
+}
+
+
+
+
+#block-compose {
+  padding-left:0px;
+  padding-right:0px;
+  height: 6.53vh;
+  transition: 0.2s;
+  background-color: gray;
+  z-index:1;
+  position:relative;
+}
+
+#block-compose:hover {
+  width:600px;
+}
+#block-1, #block-2, #block-3, #block-4, #block-5, #block-6 { 
+  padding-left:0px;
+  padding-right:0px;
+  height: 14.14vh;
+  transition: 0.2s;
+  z-index:1;
+  position:relative;
+}
+
+#btn-1 {
+  display: inline-block;
+  border: none;
+  background-color: #F19E80;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+
+#btn-2 {
+  display: block;
+  border: none;
+  background-color: #FACE91;
+  font-size: 1.5vw;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+
+
+#btn-3 {
+  display: block;
+  border: none;
+  background-color: #D6E39E;
+  font-size: 1.5vw;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+
+#btn-4 {
+  display: inline-block;
+  border: none;
+  background-color: #8DD4F4;
+  font-size: 1.5vw;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+
+#btn-5 {
+  display: block;
+  border: none;
+  background-color: #9A8CC1;
+  font-size: 1.5vw;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+
+#btn-6 {
+  display: block;
+  border: none;
+  background-color:#EF9EA4;
+  font-size: 1.5vw;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+

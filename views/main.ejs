@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <link rel="stylesheet" href="style.css"/>
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"/>
+
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gmail-js/0.9.9/gmail.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.cs"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <script src="script.js"></script> 
+  
+</head> 
+<body>
+  <main role="main" class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1" id="search-bar" onmouseover="search_bar_in()" onmouseout="search_bar_out()">  
+            <i class="material-icons" style="font-size: 3vw;">search</i>
+      </div>
+      
+        
+          <div class="col-lg-10" id="top-bar">
+
+          </div>
+          <div class="col-lg-1" id="block-login">
+            <a class="btn-block" id="btn-login" href="/auth/google">
+              <h5>unloggen met je vingerprint</h5>
+            </a>
+          </div>
+            
+      
+    </div>
+    <div class="row">
+      <div class="col-lg-1" id="menus">
+        <div class="row" id="zero-margin">
+          <div class="col-lg-12" id="block-compose">  
+            <i class="material-icons" style="font-size: 3vw;">insert_chart</i>
+          </div>
+          <div class="col-lg-12" id="block-1" onmouseover="menu_card_in('block', 1)" onmouseleave="menu_card_out('block', 1)">
+              <button id="btn-1" type="button" class="btn-block" onclick="button1()">
+               <i class="material-icons" style="font-size: 5vw;">inbox</i>
+              
+            </button>
+          </div>
+          <div class="col-lg-12" id="block-2"  onmouseover="menu_card_in('block', 2)" onmouseleave="menu_card_out('block', 2)">
+            <button id="btn-2" type="button" class="btn-block" onclick="button2()">
+              <i class="material-icons" style="font-size: 5vw;">star_border</i>
+            </button>
+          </div>
+          <div class="col-lg-12" id="block-3" onmouseover="menu_card_in('block', 3)" onmouseleave="menu_card_out('block', 3)">
+            <button id="btn-3" type="button" class="btn-block" onclick="button3()">
+              <i class="material-icons" style="font-size: 5vw;">vpn_key</i>
+            </button>
+          </div>
+          <div class="col-lg-12" id="block-4" onmouseover="menu_card_in('block', 4)" onmouseleave="menu_card_out('block', 4)">
+            <button id="btn-4" type="button" class="btn-block" onclick="button1()">
+              <i class="material-icons" style="font-size: 5vw;">send</i>
+            </button>
+          </div>
+          <div class="col-lg-12" id="block-5" onmouseover="menu_card_in('block', 5)" onmouseleave="menu_card_out('block', 5)">
+            <button id="btn-5" type="button" class="btn-block" onclick="button2()">
+              <i class="material-icons" style="font-size: 5vw;">insert_drive_file</i>
+            </button>
+          </div>
+          <div class="col-lg-12" id="block-6" onmouseover="menu_card_in('block', 6)" onmouseleave="menu_card_out('block', 6)">
+            <button id="btn-6" type="button" class="btn-block" onclick="button3()">
+              <i class="material-icons" style="font-size: 2vw;">snooze</i>
+              <i class="material-icons" style="font-size: 2vw;">error</i>
+              <i class="material-icons" style="font-size: 2vw;">delete</i>
+            </button>
+          </div>
+        </div>
+      </div>    
+      <div class="col-lg-11" id="main-window">
+        <img src="mail_placeholder.png" style="width:91.6vw;"/>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+</body>
+</html>
+
